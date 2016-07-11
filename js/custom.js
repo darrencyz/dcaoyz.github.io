@@ -6,5 +6,5 @@ $('h1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend ani
 });
 
 $('h3').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-$('[data-typer-targets]').typer();
+  $('h3').typeTo('software engineering · passionate developer')
 });

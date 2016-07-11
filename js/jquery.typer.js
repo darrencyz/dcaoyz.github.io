@@ -13,8 +13,8 @@ String.prototype.rightChars = function(n){
 (function($) {
   var
     options = {
-      highlightSpeed    : 20,
-      typeSpeed         : 100,
+      highlightSpeed    : 35,
+      typeSpeed         : 70,
       clearDelay        : 500,
       typeDelay         : 200,
       clearOnHighlight  : true,
@@ -200,7 +200,7 @@ String.prototype.rightChars = function(n){
       j = 0;
 
     if (currentText === newString) {
-      console.log("Our strings our equal, nothing to type");
+      console.log("Our strings are equal, nothing to type");
       return $e;
     }
 
