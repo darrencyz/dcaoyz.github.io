@@ -19,7 +19,8 @@ String.prototype.rightChars = function(n){
       typeDelay         : 200,
       clearOnHighlight  : true,
       typerDataAttr     : 'data-typer-targets',
-      typerInterval     : 2000
+      typerInterval     : 2000,
+      callback          : null
     },
     highlight,
     clearText,
@@ -75,6 +76,7 @@ String.prototype.rightChars = function(n){
 
     if (!text || text.length === 0) {
       clearData($e);
+      if ($.typer.options.callback) $.typer.options.callback()
       return;
     }
 
@@ -200,7 +202,7 @@ String.prototype.rightChars = function(n){
       j = 0;
 
     if (currentText === newString) {
-      console.log("Our strings are equal, nothing to type");
+      console.log("Our strings our equal, nothing to type");
       return $e;
     }
 

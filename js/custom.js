@@ -1,3 +1,8 @@
+function display() {
+  $('ul').addClass('animated fadeInUp');
+  $('ul').removeClass('hidden');
+}
+
 $.typer.options = {
   highlightSpeed    : 35,
   typeSpeed         : 70,
@@ -5,7 +10,8 @@ $.typer.options = {
   typeDelay         : 200,
   clearOnHighlight  : true,
   typerDataAttr     : 'data-typer-targets',
-  typerInterval     : 2000
+  typerInterval     : 2000,
+  callback          : display
 }
 
 $('h1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -16,13 +22,3 @@ $('h1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend ani
 $('p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
   $('p').typeTo('software engineering · passion for development')
 });
-
-function display(){
-  $('ul').addClass('animated fadeIn');
-  $('ul').removeClass('hidden');
-}
-
-setTimeout(function() {
-  $('ul').addClass('animated fadeInUp');
-  $('ul').removeClass('hidden');
-}, 8500);
