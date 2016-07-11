@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+header {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.7em;
+  margin: 0;
+  -webkit-animation-duration: 1200ms !important;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 1200ms !important;
+  -moz-animation-delay: 1s;
+  animation-duration: 1200ms !important;
+  animation-delay: 1s;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  -webkit-animation-duration: 800ms !important;
+  -moz-animation-duration: 800ms !important;
+  animation-duration: 800ms !important;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  -webkit-animation-duration: 800ms !important;
+  -moz-animation-duration: 800ms !important;
+  animation-duration: 800ms !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
