@@ -23,6 +23,6 @@ function display(){
 }
 
 setTimeout(function() {
-  $('ul').addClass('animated fadeIn');
+  $('ul').addClass('animated fadeInUp');
   $('ul').removeClass('hidden');
 }, 8500);
