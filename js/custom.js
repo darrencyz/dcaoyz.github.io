@@ -1,10 +1,18 @@
-$('h1').addClass('animated fadeIn');
+$.typer.options = {
+  highlightSpeed    : 35,
+  typeSpeed         : 70,
+  clearDelay        : 500,
+  typeDelay         : 200,
+  clearOnHighlight  : true,
+  typerDataAttr     : 'data-typer-targets',
+  typerInterval     : 2000
+}
 
 $('h1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-  $('h3').addClass('animated fadeIn');
-  $('h3').removeClass('hidden');
+  $('p').addClass('animated fadeIn');
+  $('p').removeClass('hidden');
 });
 
-$('h3').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-  $('h3').typeTo('software engineering · passionate developer')
+$('p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+  $('p').typeTo('software engineering · passion for development')
 });

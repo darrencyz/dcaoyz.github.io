@@ -27,15 +27,8 @@ h1 {
   animation-delay: 1s;
 }
 
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
-  -webkit-animation-duration: 800ms !important;
-  -moz-animation-duration: 800ms !important;
-  animation-duration: 800ms !important;
-}
-
-h4 {
+p {
+  height: 1.3em;
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
   -webkit-animation-duration: 800ms !important;
