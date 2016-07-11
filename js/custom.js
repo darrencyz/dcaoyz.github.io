@@ -16,3 +16,13 @@ $('h1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend ani
 $('p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
   $('p').typeTo('software engineering · passion for development')
 });
+
+function display(){
+  $('ul').addClass('animated fadeIn');
+  $('ul').removeClass('hidden');
+}
+
+setTimeout(function() {
+  $('ul').addClass('animated fadeIn');
+  $('ul').removeClass('hidden');
+}, 8500);
