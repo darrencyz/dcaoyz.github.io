@@ -12,52 +12,45 @@ header {
   top: 33%;
 }
 
-h1 {
+#name {
   font-family: 'Roboto', sans-serif;
   font-size: 4.7em;
   margin: 0;
-  -webkit-animation-duration: 1200ms !important;
+  -webkit-animation-duration: 1000ms;
   -webkit-animation-delay: 1s;
-  -moz-animation-duration: 1200ms !important;
+  -moz-animation-duration: 1000ms;
   -moz-animation-delay: 1s;
-  animation-duration: 1200ms !important;
+  animation-duration: 1000ms;
   animation-delay: 1s;
 }
 
-p {
+#desc {
   height: 1.3em;
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
-  -webkit-animation-duration: 800ms !important;
-  -moz-animation-duration: 800ms !important;
-  animation-duration: 800ms !important;
+  -webkit-animation-duration: 1400ms;
+  -moz-animation-duration: 1400ms;
+  animation-duration: 1400ms;
 }
 
-ul {
+#links {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+#links li {
     display: inline;
 }
 
-li a {
+#links li a {
   color: black;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   margin: 10px;
 }
 
-li p {
-  display: inline;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  margin: 10px;
-}
-
-li a:hover {
+#links li a:hover {
     color: #337ab7;
 }
 

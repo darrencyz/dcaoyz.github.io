@@ -1,11 +1,11 @@
 function display() {
-  $('ul').addClass('animated fadeInUp');
-  $('ul').removeClass('hidden');
+  $('#links').addClass('animated fadeInUp');
+  $('#links').removeClass('hidden');
 }
 
 $.typer.options = {
-  highlightSpeed    : 35,
-  typeSpeed         : 70,
+  highlightSpeed    : 18,
+  typeSpeed         : 40,
   clearDelay        : 500,
   typeDelay         : 200,
   clearOnHighlight  : true,
@@ -14,11 +14,11 @@ $.typer.options = {
   callback          : display
 }
 
-$('h1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-  $('p').addClass('animated fadeIn');
-  $('p').removeClass('hidden');
+$('#name').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+  $('#desc').addClass('animated fadeIn');
+  $('#desc').removeClass('hidden');
 });
 
-$('p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-  $('p').typeTo('software engineering · passion for development')
+$('#desc').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+  $('#desc').typeTo('software engineer & creative problem-solver')
 });
