@@ -75,15 +75,15 @@ header {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (orientation: portrait) {
   #name {
     font-size: 6.7em;
   }
 
   #desc {
-    height: 2em;
     font-size: 2.5em;
     margin: 1em;
+    text-align: center;
   }
 
   #links{
