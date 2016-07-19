@@ -6,7 +6,7 @@ html, body {
     transform-style: preserve-3d;
 }
 
-header {
+#container {
   text-align: center;
   position: relative;
   top: 30%;
