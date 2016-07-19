@@ -9,12 +9,12 @@ html, body {
 header {
   text-align: center;
   position: relative;
-  top: 33%;
+  top: 30%;
 }
 
 #name {
   font-family: 'Roboto', sans-serif;
-  font-size: 4.7em;
+  font-size: 5.2em;
   margin: 0;
   -webkit-animation-duration: 1000ms;
   -webkit-animation-delay: 1s;
@@ -25,9 +25,9 @@ header {
 }
 
 #desc {
-  height: 1.3em;
+  height: 1.5em;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   -webkit-animation-duration: 1400ms;
   -moz-animation-duration: 1400ms;
   animation-duration: 1400ms;
@@ -46,6 +46,7 @@ header {
 #links li a {
   color: black;
   text-decoration: none;
+  font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
   margin: 10px;
 }
@@ -73,6 +74,12 @@ header {
 
 .hidden {
   visibility: hidden;
+}
+
+.particles {
+  position: relative;
+  height: 35%;
+  top: 35%;
 }
 
 @media only screen and (orientation: portrait) {
