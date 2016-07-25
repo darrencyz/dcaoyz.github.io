@@ -1,8 +1,8 @@
 function display() {
-  $('#links').addClass('animated fadeInUp');
-  $('#links').removeClass('hidden');
   $('#navbar').addClass('animated fadeInDown');
   $('#navbar').removeClass('hidden');
+  $('#links').addClass('animated fadeInUp');
+  $('#links').removeClass('hidden');
   $('#links').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
     $('#particles').particleground({
     dotColor: '#337ab7',
@@ -34,3 +34,5 @@ $('#name').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend 
 $('#desc').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
   $('#desc').typeTo('software engineer & creative problem-solver')
 });
+
+$('#home').css('color', '#EF3F38')
