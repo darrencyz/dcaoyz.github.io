@@ -81,7 +81,7 @@ body {
 }
 
 #particles {
-  height: 55%;
+  height: 100%;
 }
 
 .container {
@@ -93,6 +93,7 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
+  overflow: hidden;
 }
 
 .title {
