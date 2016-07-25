@@ -35,10 +35,11 @@ $('#desc').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend 
   $('#desc').typeTo('software engineer & creative problem-solver')
 });
 
-$('#home-link').css('color', '#EF3F38')
-
-$("#home-link").click(function(e) {
+$("#home-ln").click(function(e) {
     e.preventDefault();
+
+    $(".active-ln").removeClass('active-ln');
+    $("#home-ln").addClass('active-ln');
 
     $(".active").addClass('hidden');
     $(".active").removeClass('active');
@@ -46,8 +47,11 @@ $("#home-link").click(function(e) {
     $("#home").addClass('active');
 });
 
-$("#about-link").click(function(e) {
+$("#about-ln").click(function(e) {
     e.preventDefault();
+
+    $(".active-ln").removeClass('active-ln');
+    $("#about-ln").addClass('active-ln');
 
     $(".active").addClass('hidden');
     $(".active").removeClass('active');
@@ -55,8 +59,11 @@ $("#about-link").click(function(e) {
     $("#about").addClass('active');
 });
 
-$("#portfolio-link").click(function(e) {
+$("#port-ln").click(function(e) {
     e.preventDefault();
+
+    $(".active-ln").removeClass('active-ln');
+    $("#port-ln").addClass('active-ln');
 
     $(".active").addClass('hidden');
     $(".active").removeClass('active');

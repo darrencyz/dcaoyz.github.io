@@ -108,6 +108,10 @@ body {
   font-size: 1.5em;
 }
 
+.active-ln {
+  color: #EF3F38 !important;
+}
+
 .hidden {
   visibility: hidden;
 }
