@@ -1,6 +1,8 @@
 function display() {
   $('#links').addClass('animated fadeInUp');
   $('#links').removeClass('hidden');
+  $('#navbar').addClass('animated fadeInDown');
+  $('#navbar').removeClass('hidden');
   $('#links').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
     $('#particles').particleground({
     dotColor: '#337ab7',
@@ -15,7 +17,7 @@ function display() {
 
 $.typer.options = {
   highlightSpeed    : 18,
-  typeSpeed         : 40,
+  typeSpeed         : 25,
   clearDelay        : 500,
   typeDelay         : 200,
   clearOnHighlight  : true,
