@@ -7,9 +7,9 @@ function display() {
     $('#particles').particleground({
     dotColor: '#337ab7',
     lineColor: '#AEC6CF',
-    particleRadius: 7,
+    particleRadius: 4,
     density: 15000,
-    proximity: 65,
+    proximity: 100,
     parallaxMultiplier: 25
     });
   });
