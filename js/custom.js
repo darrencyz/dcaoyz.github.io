@@ -2,7 +2,7 @@ function display() {
   $('#links').addClass('animated fadeInUp');
   $('#links').removeClass('hidden');
   $('#links').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-    $('.particles').particleground({
+    $('#particles').particleground({
     dotColor: '#337ab7',
     lineColor: '#AEC6CF',
     particleRadius: 7,
