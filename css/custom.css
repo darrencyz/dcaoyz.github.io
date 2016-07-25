@@ -14,7 +14,7 @@ body {
   list-style-type: none;
   padding: 0;
   text-align: center;
-  height: 60px;
+  height: 90px;
   border-bottom-width: 1px;
   border-bottom-style: dashed;
   border-bottom-color: #CCC;
@@ -23,12 +23,14 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
+  margin: 0;
 }
 
 #navbar > li {
+  position: relative;
+  top: 37%;
   display: inline;
-  margin: 1em;
-  padding: 1em;
+  margin: 2em;
 }
 
 #navbar > li > a {
@@ -36,8 +38,6 @@ body {
   text-decoration: none;
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
-  margin: 10px;
-  display: inline-block;
 }
 
 #navbar > li > a:hover {
