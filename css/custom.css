@@ -108,6 +108,36 @@ body {
   font-size: 1.5em;
 }
 
+.profile {
+  position: absolute;
+  width: 35%;
+}
+
+.prof-img {
+  height: 45%;
+  width: 45%;
+}
+
+.location {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3em;
+}
+
+.bio {
+  position: relative;
+  left: 35%;
+  width: 60%;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+i {
+  color: black;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
 .active-ln {
   color: #EF3F38 !important;
 }
