@@ -80,8 +80,24 @@ body {
   color: #337ab7;
 }
 
-#particles {
-  height: 100%;
+#animate-container {
+  -webkit-animation-duration: 1400ms;
+  -moz-animation-duration: 1400ms;
+  animation-duration: 1400ms;
+}
+
+#animate-area {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/mountains-bg.png);
+  animation: animatedBackground 10s linear infinite;
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: -485px 0; }
 }
 
 .container {
@@ -93,7 +109,6 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
-  overflow: hidden;
 }
 
 .title {
