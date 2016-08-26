@@ -102,7 +102,7 @@ body {
   width: 100%;
   max-height: 200px;
   height: 33%;
-  background-image: url(../img/mountains-bg-red.png);
+  background-image: url(../img/mountains.png);
   animation: animatedBackground 10s linear infinite;
 }
 
