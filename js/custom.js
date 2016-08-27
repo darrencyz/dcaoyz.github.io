@@ -53,6 +53,7 @@ $('#port-ln').click(function(e) {
       $('.active').addClass('invisible');
     }
 
+    $('.active').removeClass('active');
     $('#portfolio').removeClass('invisible');
     $('#portfolio').addClass('active');
 });

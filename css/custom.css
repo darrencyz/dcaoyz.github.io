@@ -148,6 +148,7 @@ body {
 .location {
   font-family: 'Dancing Script', cursive;
   font-size: 1.3em;
+  margin: 3% 10%;
 }
 
 .bio {
@@ -155,6 +156,7 @@ body {
   top: 20%;
   left: 35%;
   width: 55%;
+  margin-bottom: 20%;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
