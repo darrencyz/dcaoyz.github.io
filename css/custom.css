@@ -182,6 +182,10 @@ i {
   visibility: hidden;
 }
 
+.invisible {
+  display: none;
+}
+
 .hvr-grow {
   display: inline-block;
   transform: translateZ(0);

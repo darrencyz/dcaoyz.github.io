@@ -12,32 +12,47 @@ $('#desc').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend 
   $('#animate-container').removeClass('hidden');
 });
 
-$("#home-ln").click(function(e) {
+$('#home-ln').click(function(e) {
     e.preventDefault();
-    $(".active-ln").removeClass('active-ln');
-    $("#home-ln").addClass('active-ln');
-    $(".active").addClass('hidden');
-    $(".active").removeClass('active');
-    $("#home").removeClass('hidden');
-    $("#home").addClass('active');
+
+    $('.active-ln').removeClass('active-ln');
+    $('#home-ln').addClass('active-ln');
+
+    $('.active').addClass('invisible');
+    $('.active').removeClass('active');
+    $('#home').removeClass('hidden');
+    $('#home').addClass('active');
 });
 
-$("#about-ln").click(function(e) {
+$('#about-ln').click(function(e) {
     e.preventDefault();
-    $(".active-ln").removeClass('active-ln');
-    $("#about-ln").addClass('active-ln');
-    $(".active").addClass('hidden');
-    $(".active").removeClass('active');
-    $("#about").removeClass('hidden');
-    $("#about").addClass('active');
+
+    $('.active-ln').removeClass('active-ln');
+    $('#about-ln').addClass('active-ln');
+
+    if ($('.active').attr('id') === 'home') {
+      $('.active').addClass('hidden');
+    } else {
+      $('.active').addClass('invisible');
+    }
+
+    $('.active').removeClass('active');
+    $('#about').removeClass('invisible');
+    $('#about').addClass('active');
 });
 
-$("#port-ln").click(function(e) {
+$('#port-ln').click(function(e) {
     e.preventDefault();
-    $(".active-ln").removeClass('active-ln');
-    $("#port-ln").addClass('active-ln');
-    $(".active").addClass('hidden');
-    $(".active").removeClass('active');
-    $("#portfolio").removeClass('hidden');
-    $("#portfolio").addClass('active');
+
+    $('.active-ln').removeClass('active-ln');
+    $('#port-ln').addClass('active-ln');
+
+    if ($('.active').attr('id') === 'home') {
+      $('.active').addClass('hidden');
+    } else {
+      $('.active').addClass('invisible');
+    }
+
+    $('#portfolio').removeClass('invisible');
+    $('#portfolio').addClass('active');
 });
