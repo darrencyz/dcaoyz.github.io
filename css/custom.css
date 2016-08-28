@@ -14,18 +14,18 @@ body {
 
 #navbar {
   list-style-type: none;
-  padding: 0;
   text-align: center;
   height: 10%;
   border-bottom-width: 1px;
   border-bottom-style: dashed;
   border-bottom-color: #CCC;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
   left: 0;
   right: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin: 0;
+  padding: 0;
 }
 
 #navbar > li {
@@ -85,7 +85,7 @@ body {
   text-decoration: none;
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
-  margin: 10px;
+  margin: 1%;
 }
 
 #links > li > a:hover {
